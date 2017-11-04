@@ -16,6 +16,18 @@
       <UniqueIdentifier>{88b4148a-9a5a-4a46-8339-5e165b2de24e}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{6fb737a1-7f60-4ead-9fd2-b56897327c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{4213db46-1cd2-4a68-812d-933bd6159268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{a7a9a234-5a6f-429c-bcd2-e844179a0d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{3c45fdcc-bc99-46c2-bdb4-f9c139fb2e68}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="airtank.cpp">
@@ -273,6 +285,174 @@
     <ClCompile Include="wpn_xm1014.cpp">
       <Filter>Source Files\weapons</Filter>
     </ClCompile>
+    <ClCompile Include="..\common\interface.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\cull.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\gldraw.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\merge.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\nodraw.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\outside.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\portals.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\qbsp.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\solidbsp.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\surfaces.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\tjunc.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qbsp2\writebsp.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qcsg\brush.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qcsg\gldraw.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qcsg\hullfile.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qcsg\map.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qcsg\qcsg.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qcsg\textures.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qlumpy\qlumpy.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qlumpy\quakegrb.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qrad\lightmap.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qrad\qrad.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qrad\trace.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\qrad\vismat.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\serverctrl\ServerCtrl.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\serverctrl\ServerCtrlDlg.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\serverctrl\StdAfx.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\smdlexp\smdlexp.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\sprgen\sprgen.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\studiomdl\bmpread.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\studiomdl\studiomdl.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\studiomdl\tristrip.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\studiomdl\write.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\visx2\flow.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\visx2\soundpvs.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\visx2\vis.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\xwad\xwad.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\bspinfo\bspinfo.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\bspfile.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\cmdlib.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\lbmlib.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\mathlib.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\polylib.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\scriplib.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\threads.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\trilib.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\common\wadlib.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\light\light.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\light\ltface.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\light\trace.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\makefont\makefont.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\makels\makels.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\mdlviewer\mdlviewer.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\mdlviewer\studio_render.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\mdlviewer\studio_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\mkmovie\mkmovie.c">
+      <Filter>utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="activity.h">
@@ -422,5 +602,489 @@
     <ClInclude Include="weapons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\common\beamdef.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cl_entity.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\com_model.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\con_nprint.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\const.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\crc.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cvardef.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\demo_api.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\director_cmds.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\dlight.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\dll_state.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine_launcher_api.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\entity_state.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\entity_types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\event_api.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\event_args.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\event_flags.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\exefuncs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\hltv.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\in_buttons.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\interface.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ivoicetweak.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\mathlib.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\net_api.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\netadr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\nowin.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\particledef.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pmtrace.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\qfont.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\r_efx.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\r_studioint.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ref_params.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\screenfade.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\studio_event.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\triangleapi.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\usercmd.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\weaponinfo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\anorms.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\archtypes.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\cdll_int.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\custom.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\customentity.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\edict.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\eiface.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\keydefs.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\progdefs.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\progs.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\Sequence.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\shake.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\engine\studio.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\tier1\UtlMemory.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\tier1\UtlVector.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\qbsp2\bsp5.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\qcsg\csg.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\qlumpy\qlumpy.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\qrad\qrad.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\serverctrl\resource.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\serverctrl\ServerCtrl.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\serverctrl\ServerCtrlDlg.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\serverctrl\StdAfx.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\smdlexp\smedefs.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\smdlexp\smexprc.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\sprgen\spritegn.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\studiomdl\studiomdl.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ActionSignal.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_App.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Bitmap.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_BitmapTGA.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Border.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_BorderLayout.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_BorderPair.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_BuildGroup.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Button.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ButtonController.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ButtonGroup.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ChangeSignal.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_CheckButton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Color.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ComboKey.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ConfigWizard.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Cursor.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Dar.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_DataInputStream.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Desktop.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_DesktopIcon.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_EditPanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_EtchedBorder.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_FileInputStream.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_FlowLayout.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_FocusChangeSignal.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_FocusNavGroup.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Font.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Frame.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_FrameSignal.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_GridLayout.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_HeaderPanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Image.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ImagePanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_InputSignal.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_InputStream.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_IntChangeSignal.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_IntLabel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_KeyCode.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Label.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Layout.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_LayoutInfo.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_LineBorder.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ListPanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_LoweredBorder.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Menu.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_MenuItem.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_MenuSeparator.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_MessageBox.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_MiniApp.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_MouseCode.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Panel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_PopupMenu.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ProgressBar.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_RadioButton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_RaisedBorder.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_RepaintSignal.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Scheme.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ScrollBar.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ScrollPanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Slider.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_StackLayout.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_String.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_Surface.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_SurfaceBase.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_SurfaceGL.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TablePanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TabPanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TaskBar.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TextEntry.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TextGrid.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TextImage.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TextPanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TickSignal.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_ToggleButton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_TreeFolder.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\vgui\include\VGUI_WizardPanel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\visx2\vis.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\bspfile.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\cmdlib.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\lbmlib.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\mathlib.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\movie.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\polylib.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\scriplib.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\threads.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\trilib.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common\wadlib.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\light\light.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\mdlviewer\mdlviewer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\procinfo\procinfo.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\utils\serverctrl\res\serverctrl.rc2">
+      <Filter>utils</Filter>
+    </None>
+    <None Include="..\utils\smdlexp\smdlexp.def">
+      <Filter>utils</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\utils\serverctrl\ServerCtrl.rc">
+      <Filter>utils</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\utils\smdlexp\smdlexp.rc">
+      <Filter>utils</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
